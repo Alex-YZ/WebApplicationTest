@@ -20,8 +20,15 @@ namespace WebApplicationTest.Controllers
 
         public IActionResult Index()
         {
+            for (int i = 0; i < 10; i++)
+            {
+
+            }
+
             return View();
         }
+
+    
 
         public IActionResult Privacy()
         {
