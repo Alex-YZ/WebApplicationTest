@@ -9,11 +9,11 @@ using WebApplicationTest.Models;
 
 namespace WebApplicationTest.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController2 : Controller
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController2(ILogger<HomeController> logger)
         {
             _logger = logger;
         }
@@ -25,6 +25,8 @@ namespace WebApplicationTest.Controllers
             {
                 Console.WriteLine(i);
                 Console.WriteLine(i * 3);
+                Console.WriteLine(i);
+                Console.WriteLine(i);
                 Console.WriteLine(i);
                 Console.WriteLine(i);
             }
