@@ -24,6 +24,10 @@ namespace WebApplicationTest.Controllers
             for (int i = 0; i < 20; i++)
             {
                 Console.WriteLine(i);
+                Console.WriteLine(i);
+                Console.WriteLine(i);
+                Console.WriteLine(i);
+                Console.WriteLine(i);
             }
             for (int i = 0; i < 10; i++)
             {
